@@ -8,7 +8,9 @@ public class Main {
         int a = scanner.nextInt();
         System.out.println("Enter a number:");
         int b = scanner.nextInt();
+        int c = a + b;
         scanner.close();
+        System.out.printf("%d + %d = %d", a, b, c);
 
     }
 }
